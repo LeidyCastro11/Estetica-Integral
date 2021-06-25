@@ -37,7 +37,6 @@ body, html {
     border-radius: 160px;
     width: 130px;
     height: 120px;
-
     
 }
 .fon2 {
@@ -210,15 +209,25 @@ nav {
     list-style-position: inside;
 
 }
-
+#imalipo{
+    margin-top: 90px;
+}
+#imalipo img{
+    width: 700px;
+}
 .info {
     width: 100%;
     height: auto;
     background-color: #FFB5E8;
 }
 .contenidoQuienes{
-    margin: 0px;
-    width: 800px;
+    margin-left: 80px;
+    margin-top: 80px;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    font-size: 17.7px;
+    width: 400px;
 }
 #quienes{
     text-align: center;
@@ -236,19 +245,12 @@ nav {
 }
 .col-1{
     display: flex;
-    margin-left: 480px;
+    margin-left: 360px;
     justify-content: center;
     align-items: center;
 }
 .col-2{
-    margin-left: 220px;
-}
-.face{
-}
-.insta{
-}
-.wha{
-    display: flex;
+    margin-left: 160px;
 }
 .pie_de_pagina {
     text-align: center;
