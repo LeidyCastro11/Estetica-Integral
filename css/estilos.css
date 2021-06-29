@@ -246,12 +246,12 @@ nav {
 }
 .col-1{
     display: flex;
-    margin-left: 360px;
+    margin-left: 47%;
     justify-content: center;
     align-items: center;
 }
 .col-2{
-    margin-left: 160px;
+    margin-left: 21%;
 }
 .pie_de_pagina {
     text-align: center;
@@ -271,12 +271,22 @@ nav {
     width: 25%;
     border:1px solid red;
 }
+.precio1 img{
+    width: 100%;
+}
 .infoprecio1{
     display: inline-block;
     margin-left: 1.2%;
     margin-top: 1.2%;
     width: 20%;
     border:1px solid red;
+}
+.infoprecio1 img{
+    display: flex;
+    margin-left: 42%;
+}
+ a{
+    width: 40px;
 }
 .precio2{
     display: inline-block;
