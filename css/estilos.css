@@ -227,7 +227,7 @@ nav {
     width: 400px;
 }
 #contenido_quienes{
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman'
 }
 #quienes{
     font-size: 40px;
@@ -260,4 +260,35 @@ nav {
     border: 2px solid #000000; 
     justify-content: flex-start;
 
+}
+.costos{
+    width: 100%;
+}
+.precio1{
+    display: inline-block;
+    margin-left: 1.2%;
+    margin-top: 1.2%;
+    width: 25%;
+    border:1px solid red;
+}
+.infoprecio1{
+    display: inline-block;
+    margin-left: 1.2%;
+    margin-top: 1.2%;
+    width: 20%;
+    border:1px solid red;
+}
+.precio2{
+    display: inline-block;
+    margin-left: 4.4%;
+    margin-top: 1.2%;
+    width: 25%;
+    border:1px solid red;
+}
+.infoprecio2{
+    display: inline-block;
+    margin-left: 1.2%;
+    margin-top: 1.2%;
+    width: 20%;
+    border:1px solid red;
 }
