@@ -3,6 +3,11 @@ body, html {
     padding: 0;
 }
 
+
+@font-face{
+    font-family: "Rakkas";
+    src:url(../utils/fonts/Rakkas-Regular.woff);
+}
 .cabecera {
     display: flex;
     background-color:#FFB5E8;
@@ -15,6 +20,8 @@ body, html {
     margin-top: 20px;
 }
 .title{
+    font-family: "Rakkas";
+    color: #6F6565;
     display: flex;
     width: 90%;
     justify-content: center;
@@ -24,6 +31,8 @@ body, html {
 
 }
 .title2{
+    font-family: "Rakkas";
+    color: #6F6565;
     width: 90%;
     justify-content: center;
     text-align: center;
@@ -42,7 +51,7 @@ body, html {
 .fon2 {
     width: 100%;
     display: flex;
-    height: 613.3px;
+    height: auto;
     margin-top:15px;
     text-align: justify;
     justify-content: center;
@@ -88,8 +97,8 @@ nav {
     width: 100%;
     max-height: 45px;
     margin: auto;
-    background: rgba(17, 59, 53);
-    border-bottom: 1px solid white;
+    /* background: rgba(17, 59, 53);
+    border-bottom: 1px solid white; */
     display:block;
 }
 
@@ -129,50 +138,6 @@ nav {
     color: #EAEAEA;
 }
 
-.submenu {
-    display:block;
-    position: absolute;
-    visibility: hidden;
-    background-color: #EAEAEA;
-    opacity: 0;
-    padding-left: 20px;
-    padding-right: 90px;
-    width: 100%;    
-}
-
-.submenu li {
-    width:100%;
-    color: #000;
-    background-color: rgba(17, 59, 53); 
-    display: block;
-    padding-left: 10px;
-    padding-right: 100px;
-}
-
-.submenu a {
-    width: 100%;
-    display: block;
-    line-height: 45px;
-    text-align: left;
-    color:#fff;
-    background-color: rgba(17, 59, 53);
-    padding-left: 10px;
-    padding-right: 90px;
-   }
-
-.submenu li a:hover {
-    opacity: 0.5;
-    transition: background-color 2s;
-    color:#fff;
-    }
-
-.menu li:hover .submenu {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 3s;
-    background: rgba(17, 59, 53);
-    width: 100%;
-}
 
 .fotoprincipal img {
     width:100%;
@@ -209,10 +174,12 @@ nav {
     list-style-position: inside;
 
 }
-#imalipo{
-    margin-top: 90px;
+.imalipo{
+    margin-top:20px;
+    margin-bottom: 50px;
+    margin-right: 60px;
 }
-#imalipo img{
+.imalipo img{
     width: 700px;
 }
 .info {
@@ -221,16 +188,28 @@ nav {
     background-color: #FFB5E8;
 }
 .contenidoQuienes{
-    margin-left: 80px;
-    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
     justify-content: center;
     text-align: justify;
     align-items: center;
     font-size: 17.7px;
     width: 400px;
 }
-#quienes{
+
+.conten{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    font-size: 20px;
+}
+.quienes{
     text-align: center;
+    font-size: 28px;
+    font-family: serif;
+    font-style: italic;
+    color: #6F6565;
+    font-weight: 700;
 }
 .row {
     width: 100%;
@@ -242,6 +221,12 @@ nav {
     display: flex;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.col-4{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #6F6565;
 }
 .col-1{
     display: flex;
@@ -262,6 +247,3 @@ nav {
 }
 
 
-/* LEIDY: TRATAMIENTO */
-
-/* JAHAIRA COSTOS */
