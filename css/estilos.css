@@ -266,19 +266,21 @@ nav {
 }
 .precio1{
     display: inline-block;
-    margin-left: 1.2%;
+    margin-left: 2.5%;
     margin-top: 1.2%;
     width: 25%;
     border:1px solid red;
 }
 .precio1 img{
     width: 100%;
+    height: 200px;
 }
 .infoprecio1{
     display: inline-block;
     margin-left: 1.2%;
     margin-top: 1.2%;
     width: 20%;
+    padding: 10px;
     border:1px solid red;
 }
 .infoprecio1 img{
@@ -290,7 +292,7 @@ nav {
 }
 .precio2{
     display: inline-block;
-    margin-left: 4.4%;
+    margin-left: 3%;
     margin-top: 1.2%;
     width: 25%;
     border:1px solid red;
