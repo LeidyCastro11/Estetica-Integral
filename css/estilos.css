@@ -209,8 +209,11 @@ nav {
     list-style-position: inside;
 
 }
+#imalipo{
+    width: 60%;
+}
 #imalipo img{
-    width: 700px;
+    width: 93%;
 }
 .info {
     width: 100%;
@@ -218,13 +221,12 @@ nav {
     background-color: #FFB5E8;
 }
 .contenidoQuienes{
-    margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 3%;
     justify-content: center;
     text-align: justify;
     align-items: center;
     font-size: 17.7px;
-    width: 400px;
+    width: 30%;
 }
 #contenido_quienes{
     font-family: 'Times New Roman'
