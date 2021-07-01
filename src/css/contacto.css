@@ -1,0 +1,25 @@
+
+.mapa {
+    border: 2px solid red;
+   
+     /* float: right; */
+    margin-left: 300px;
+}
+.datos {
+    border: 2px solid aqua;
+}
+.tituu{
+    border: 2px solid greenyellow;
+    text-align: center;
+    font-size: 28px;
+    font-family: serif;
+    font-style: italic;
+    color: #6F6565;
+    font-weight: 700;
+}
+  
+.contenedor_padre{
+    display: flex;
+    border: 2px solid red;
+}
+  
