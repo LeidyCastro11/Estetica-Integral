@@ -1,17 +1,19 @@
 
 .mapa {
-    border: 2px solid red;
-   
-     /* float: right; */
-    margin-left: 300px;
+    padding-top: 12px ;
+    margin-left: 100px;
 }
 .datos {
-    border: 2px solid aqua;
+    margin-left: -5px;
+    width: auto;
+    /* border: 2px solid aqua; */
+    margin-bottom: 30px;
 }
 .tituu{
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     text-align: center;
     font-size: 28px;
+    margin-top: 15px;
     font-family: serif;
     font-style: italic;
     color: #6F6565;
@@ -20,6 +22,64 @@
   
 .contenedor_padre{
     display: flex;
-    border: 5px solid blue;
+    margin-top: 25px;
+    background-color: #FFCEF499;
+    /* border: 2px solid yellow; */
+    width: 681px;
+    height: 152px;
 }
+
+.contenedor_padre2{
+    display: flex;
+    background-color: #FFCEF499;
+    width: 681px;
+    height: 152px;
+    
+}
+
+.info1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 30px;
+    line-height: 0.5;
+    text-align: center;
+    padding-left: 20px;
+    /* border: 2px solid blue; */
+}
+
+.info2{
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 25px;
+    line-height: 0.5;
+    text-align: center;
+}
+  
+.info3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 120px;
+    line-height: 0.5;
+    text-align: center;
+    padding-top: 30px;
+}
+  
+.info4{
+    padding-top: 30px;
+    margin-left: 190px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 0.5;
+    text-align: center;
+}
+  
   
