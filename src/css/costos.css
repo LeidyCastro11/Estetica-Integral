@@ -7,20 +7,29 @@ body, html{
     height: auto;
 }
 .contenido1{
+    width: 100%;
     height: 42%;
-    border: 2px solid blue;
     justify-content: center;
     padding-top: 1%;
     padding-bottom: 1%;
     align-items: center;
 }
+.contenido2{
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    align-items: center;
+}
 .precio1{
     display: inline-block;
+    justify-content: center;
+    align-items: center;
     margin-left: 2.5%;
     width: 25%;
     height: 40%;
     border-radius: 13px;
-    border:1px solid red;
 }
 .precio1 img{
     width: 100%;
@@ -35,7 +44,6 @@ body, html{
     padding: 1%;
     background-color: #FFCEF490;
     border-radius: 13px;
-    border:1px solid red;
 }
 .img1 {
     display: flex;
@@ -47,7 +55,6 @@ body, html{
     width: 25%;
     height: 40%;
     border-radius: 13px;
-    border:1px solid red;
 }
 .precio2 img{
     width: 100%;
@@ -62,15 +69,14 @@ body, html{
     padding: 1%;
     background-color: #FFCEF470;
     border-radius: 13px;
-    border:1px solid red;
 }
 .precio3{
     display: inline-block;
     margin-left: 28%;
     justify-content: center;
-    width: 30%;
+    align-items: center;
+    width: 26%;
     border-radius: 13px;
-    border:1px solid red;
 }
 .precio3 img{
     width: 100%;
@@ -81,10 +87,10 @@ body, html{
     display: inline-block;
     text-align: center;
     margin-left: 1.2%;
-    width: 20%;
+    width: 18%;
+    height: 230px;
     padding: 1%;
     background-color: #FFCEF470;
     border-radius: 13px;
-    border:1px solid red;
 }
 /*Responsive*/
