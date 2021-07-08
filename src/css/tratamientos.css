@@ -1,11 +1,30 @@
 .tratamientos_image {
     height: 177px;
-    /* border: 2px solid red; */
     margin-left: 90px;
     margin-right: 40px;
-    margin-top: 68px;
+    margin-top: 55px;
     margin-bottom: 50px;
 
+}
+
+.bloque{
+    display: flex;
+    display: block;
+}
+
+.lado{
+    display: flex;
+}
+
+.trata_titul{
+    text-align: center;
+    font-size: 28px;
+    font-family: serif;
+    font-style: italic;
+    color: #6F6565;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 630px;
 }
 
 .tratamientos_image img{
@@ -13,7 +32,7 @@
     height: 172px;
     border-radius: 20px;
     -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 3px 19px 0px #000000;
 }
 
 .tratamientos2_image img{
@@ -21,12 +40,11 @@ box-shadow: 0px 3px 19px 0px #000000;
     height: 172px;
     border-radius: 20px;
     -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 3px 19px 0px #000000;
 }
 
 .tratamientos2_image {
     height: 177px;
-    /* border: 2px solid red; */
     margin-top: 10px;
     margin-left: 90px;
     margin-right: 40px;
@@ -34,13 +52,11 @@ box-shadow: 0px 3px 19px 0px #000000;
 }
 
 .tratamientos3_image img{
-    /* -webkit-box-shadow: 6px -2px 19px 0px #000000; 
-box-shadow: 6px -2px 19px 0px #000000; */
     width: 419px;
     height: 172px;
     border-radius: 20px;
     -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 3px 19px 0px #000000;
 }
 
 .tratamientos3_image {
@@ -71,6 +87,18 @@ box-shadow: 0px 3px 19px 0px #000000;
     font-weight: 550;
     font-size: 20px;
 
+}
+
+.rosy{
+    margin-top: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 129%;
+    height: 57%;
+    padding: 20px;
+    background-color: #FFCEF4;
+    /* border: 2px solid aqua */
 }
 
 .rosita{
@@ -122,4 +150,171 @@ button a:hover{
 .conten_boton{
     margin-left: 608px;
     margin-top: -15px;
+}
+
+
+/* -------------------------------------RESPONSIVE------------------------------ */
+
+@media screen and (min-width: 768px) and (max-width:941px){
+    
+    .lado{
+        display: flex;
+        display: block;
+    }
+
+    .tratamientos_image img{
+        width: 419px;
+        height: 172px;
+    }
+    
+    .tratamientos2_image img{
+        width: 419px;
+        height: 172px;
+    }
+    
+    .tratamientos2_image {
+        /* border: 2px solid blue; */
+        height: 177px;
+        margin-left: 180px;
+        margin-right: 40px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .tratamientos3_image img{
+        width: 419px;
+        height: 172px;
+        border-radius: 20px;
+    }
+    
+    .tratamientos3_image {
+        height: 177px;
+        margin-left: 180px;
+        margin-right: 40px;
+        margin-top:18px;
+        margin-bottom: 50px;
+    }
+    
+    .rosita2{
+        margin-left: 22px;
+        margin-top: 0px;
+        width: 94%;
+        height: 85%;
+        padding: 20px;
+    }
+
+    .rosita{
+        margin-left: 22px;
+        margin-top: 0px;
+        width: 94%;
+        height: 85%;
+        padding: 20px;
+    }
+
+    .info_tratamientos{
+        margin-top: 0px;
+        width: 100%;
+        height: 200px;
+        font-size: 20px;
+    
+    }
+
+    .fon{
+        width: 100%;
+        display: flex;
+        height: auto;
+        margin-bottom: 18px;
+
+    }
+    
+    .fon3{
+        width: 100%;
+        display: flex;
+        height: 458px;
+       
+    }
+
+    .rosy{
+        margin-left: 22px;
+        margin-top: 0px;
+        width: 94%;
+        height: 85%;
+        padding: 20px;
+
+    }
+
+    .trata_titul{
+        margin-left: 50px;
+    }
+
+    .tratamientos_image {
+        height: 177px;
+        margin-left: 180px;
+        margin-right: 40px;
+        margin-top: 55px;
+        margin-bottom: 50px;
+    
+    }
+
+}
+
+@media screen and (min-width: 780px) and (max-width: 800px){
+
+    .tratamientos_image {
+        margin-left: 188px;
+    }
+
+    .tratamientos3_image {
+        margin-left: 188px;
+    }
+
+    .tratamientos2_image {
+        margin-left: 188px;
+    }
+
+    .trata_titul{
+        margin-left:38px;
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 820px){
+
+    .tratamientos_image {
+        margin-left: 196px;
+    }
+
+    .tratamientos3_image {
+        margin-left: 196px;
+    }
+
+    .tratamientos2_image {
+        margin-left: 196px;
+    }
+
+    .trata_titul{
+        margin-left:34px;
+    }
+
+}
+
+@media screen and (min-width: 821px) and (max-width: 840px){
+
+    .tratamientos_image {
+        margin-left: 202px;
+    }
+
+    .tratamientos3_image {
+        margin-left: 202px;
+    }
+
+    .tratamientos2_image {
+        margin-left: 202px;
+    }
+
+    .trata_titul{
+        margin-left:30px;
+    }
+
 }
