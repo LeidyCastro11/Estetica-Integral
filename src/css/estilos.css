@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 
@@ -9,11 +10,11 @@ body, html {
     src:url(../utils/fonts/Rakkas-Regular.woff);
 }
 .cabecera {
-   
     display: flex;
     background-color:#FFB5E8;
    /* margin: 2px auto;*/
     height: 140px;
+    width: 100%;
     
 }
 .cabeceraTitle {
@@ -47,7 +48,6 @@ body, html {
     border-radius: 160px;
     width: 130px;
     height: 120px;
-    
 }
 .fon2 {
     width: 100%;
@@ -74,7 +74,6 @@ nav {
     border-bottom: 1px solid white; */
     display:block;
 }
-
 .menu ul{
     background-color: #FFCCF9;
     display: flex;
@@ -214,4 +213,30 @@ nav {
     border: 2px solid #000000; 
     justify-content: flex-start;
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 941px){
+    .col-2{
+        width: 31%;
+        height: 6vh;
+        margin-left: 13.5%;
+    }
+    .col-2 img{
+        width: 35%;
+    }
+    .col-1{
+        margin-top: 3px;
+        margin-left: 39.5%;
+        margin-bottom: 19%;
+    }
+    .col-7{
+    }
+    .col-4{
+        width: 32%;
+        margin-top: 0;
+        height: auto;
+    }
+    .row{
+        height: 17vh;
+    }
 }
