@@ -1,40 +1,89 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
 .costos{
     width: 100%;
+    height: auto;
+}
+.contenido1, .contenido2, .contenido3{
+    width: 100%;
+    height: 35vh;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
 }
 .precio1{
     display: inline-block;
+    justify-content: center;
+    align-items: center;
     margin-left: 2.5%;
-    margin-top: 1.2%;
     width: 25%;
-    border:1px solid red;
+    height: 28vh;
+    border-radius: 13px;
 }
 .precio1 img{
     width: 100%;
-    height: 200px;
+    height: 100%;
+    border-radius: 13px;
 }
 .infoprecio1{
     display: inline-block;
+    text-align: center;
     margin-left: 1.2%;
-    margin-top: 1.2%;
-    width: 20%;
-    padding: 10px;
-    border:1px solid red;
+    width: 18%;
+    padding: 1%;
+    background-color: #FFCEF490;
+    border-radius: 13px;
 }
-.infoprecio1 img{
+.img1 {
     display: flex;
-    margin-left: 42%;
+    border-radius: 13px;
 }
 .precio2{
     display: inline-block;
-    margin-left: 3%;
-    margin-top: 1.2%;
+    margin-left: 5.8%;
     width: 25%;
-    border:1px solid red;
+    height: 28vh;
+    border-radius: 13px;
+}
+.precio2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
 }
 .infoprecio2{
     display: inline-block;
+    text-align: center;
     margin-left: 1.2%;
-    margin-top: 1.2%;
-    width: 20%;
-    border:1px solid red;
+    width: 18%;
+    padding: 1%;
+    background-color: #FFCEF470;
+    border-radius: 13px;
 }
+.precio3{
+    display: inline-block;
+    margin-left: 28%;
+    height: 28vh;
+    justify-content: center;
+    align-items: center;
+    width: 26%;
+    border-radius: 13px;
+}
+.precio3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+.infoprecio3{
+    display: inline-block;
+    text-align: center;
+    margin-left: 1.2%;
+    width: 18%;
+    height: 23vh;
+    padding: 1%;
+    background-color: #FFCEF470;
+    border-radius: 13px;
+}
+/*Responsive*/
