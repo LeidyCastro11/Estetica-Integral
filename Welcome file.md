@@ -21,14 +21,14 @@ Puede cambiar el nombre del archivo actual haciendo clic en el nombre del archiv
 
 ## Eliminar un archivo
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+Puede eliminar el archivo actual haciendo clic en el botón ** Eliminar ** en el explorador de archivos. El archivo se moverá a la carpeta ** Papelera ** y se eliminará automáticamente después de 7 días de inactividad.
 
-## Export a file
+## Exportar un archivo
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+Puede exportar el archivo actual haciendo clic en ** Exportar a disco ** en el menú. Puede optar por exportar el archivo como Markdown simple, como HTML usando una plantilla de Handlebars o como PDF.
 
 
-# Synchronization
+# Sincronización
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -142,5 +142,5 @@ Y esto producirá un diagrama de flujo:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzk0MTA2Nl19
+eyJoaXN0b3J5IjpbOTEzNDk3NjQ2XX0=
 -->
