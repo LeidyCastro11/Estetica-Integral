@@ -9,6 +9,7 @@ body, html {
     src:url(../utils/fonts/Rakkas-Regular.woff);
 }
 .cabecera {
+   
     display: flex;
     background-color:#FFB5E8;
    /* margin: 2px auto;*/
