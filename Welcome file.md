@@ -1,4 +1,4 @@
-# ¡ Bienvenido a StackEdit!
+# ¡Bienvenido a StackEdit!
 
 ¡Hola! Soy su primer archivo Markdown en ** StackEdit ** . Si quieres aprender sobre StackEdit, puedes leerme. Si quieres jugar con Markdown, puedes editarme. Una vez que haya terminado conmigo, puede crear nuevos archivos abriendo el ** explorador de archivos ** en la esquina izquierda de la barra de navegación.
 
@@ -120,27 +120,27 @@ $$
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+``
+ secuencia de sirena Diagrama 
+Alice - >> Bob: Hola Bob, ¿cómo estás? 
+Bob - >> John: ¿Y tú, John? 
+Bob - x Alice: ¡Estoy bien, gracias! 
+Bob-x John: ¡Estoy bien, gracias! 
+Nota a la derecha de John: Bob piensa mucho <br/> mucho tiempo, tanto <br/> que el texto <br/> no cabe en una fila. Bob -> Alice: Consultando con John ... Alice-> John: Sí ... John, ¿cómo estás? ''
 
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
 
-And this will produce a flow chart:
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+
+
+Y esto producirá un diagrama de flujo:
+
+`   ` ` Gráfico de sirena LR A [Plaza Rect] - Texto de enlace -> B ((Círculo)) A -> C (Ronda Rect) B -> D {} Rombo C -> D `   ` 
+
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MTMwNTQwXX0=
+eyJoaXN0b3J5IjpbMTUwNzk0MTA2Nl19
 -->
