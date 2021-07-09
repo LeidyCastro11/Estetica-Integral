@@ -1,11 +1,15 @@
-
+html{
+    width: 100%;
+    height: 100vh;
+}
 .mapa {
-    padding-top: 12px ;
-    margin-left: 100px;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 3%;
 }
 .datos {
-    margin-left: -5px;
-    width: auto;
+    width: 45%;
+    margin-left: 9%;
     /* border: 2px solid aqua; */
     margin-bottom: 30px;
 }
@@ -13,7 +17,7 @@
     /* border: 2px solid greenyellow; */
     text-align: center;
     font-size: 28px;
-    margin-top: 15px;
+    margin-top: 9%;
     font-family: serif;
     font-style: italic;
     color: #6F6565;
@@ -22,19 +26,20 @@
   
 .contenedor_padre{
     display: flex;
+    height: 17vh;
     margin-top: 25px;
     background-color: #FFCEF499;
     /* border: 2px solid yellow; */
-    width: 681px;
-    height: 152px;
+    width: 110%;
+    border-radius: 18px 18px 0px 0px;
 }
 
 .contenedor_padre2{
     display: flex;
     background-color: #FFCEF499;
-    width: 681px;
-    height: 152px;
-    
+    width: 110%;
+    height: 17vh;
+    border-radius:  0px 0px 18px 18px;
 }
 
 .info1{
@@ -46,14 +51,15 @@
     line-height: 0.5;
     text-align: center;
     padding-left: 20px;
+    width: 50%;
     /* border: 2px solid blue; */
 }
 
 .info2{
-    margin-left: 90px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
+    width: 48%;
     font-style: italic;
     padding-top: 25px;
     line-height: 0.5;
@@ -65,15 +71,17 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-style: italic;
-    margin-left: 120px;
     line-height: 0.5;
+    width: 50%;
+    margin-left: 2%;
     text-align: center;
     padding-top: 30px;
 }
   
 .info4{
+    height: 50%;
     padding-top: 30px;
-    margin-left: 190px;
+    margin-left: 13%;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
@@ -81,5 +89,120 @@
     line-height: 0.5;
     text-align: center;
 }
-  
-  
+.fonx{
+    width: 99%;
+    height: 66.6vh;
+    display: flex;
+    margin-top:15px;
+    text-align: justify;
+}
+iframe{
+    width:155%; 
+    height:48vh; 
+    border-radius:50%;
+    border: 5px solid #fff;
+}
+@media screen and (min-width: 768px) and (max-width: 941px){
+    iframe{
+        width:320px; 
+        height:42vh; 
+    }
+    .datos {
+        width: 99%;
+        margin-top:7%;
+        margin-bottom: 30px;
+        margin-left: 9%;
+    }
+    .fonx{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+    }
+    .tituu{
+        width: 90%;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 1%;
+    }
+    .info1{
+        width: 55%;
+    }
+    .info2{
+        margin-left: 15%;
+    }
+    .info3{
+        margin-left: 18%;
+        padding-top: 30px;
+    }
+    .info4{
+        margin-left: 28%;
+    }
+    .contenedor_padre2{
+        width: 90%;
+        height: 20vh;
+    }
+    .contenedor_padre{
+        width: 90%;
+    }
+    .mapa{
+        width: 50%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 37%;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1200px){
+    iframe{
+        margin-left: 29%;
+        width:330px; 
+        height:43vh; 
+    }
+    .datos {
+        width: 45%;
+        margin-left: 3.7%;
+    }
+    .fonx{
+        width: 98%;
+        height: auto;
+    }
+    .tituu{
+        width: 90%;
+        margin-top: 1%;
+        margin-left: 20%;
+    }
+    .info1{
+        text-align: center;
+        font-size: 19px;
+        width: 64%;
+        margin-left: -2%;
+    }
+    .info2{
+        font-size: 19px;
+        width: 30%;
+        margin-left: 2%;
+    }
+    .info3{
+        font-size: 19px;
+        width: 50%;
+        margin-left: 8%;
+    }
+    .info4{
+        font-size: 19px;
+        width: 50%;
+        margin-left: 5%;
+    }
+    .contenedor_padre2{
+        width: 130%;
+        height: 18vh;
+    }
+    .contenedor_padre{
+        width: 130%;
+        height: 18vh;
+    }
+    .mapa{
+        width: 30%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+}

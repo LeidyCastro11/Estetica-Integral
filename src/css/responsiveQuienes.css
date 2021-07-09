@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) and (max-width: 941px){
+    .fon2{
+        display: block;
+    }
+    .imalipo{
+        width: 86%;
+        justify-content: center;
+        align-items: center;
+    }
+    .imalipo img{
+        width: 99%;
+        height: 45vh;
+        margin-left: 8%;
+    }
+    .contenidoQuienes{
+        width: 92%;
+        margin-bottom: 5%;
+        margin-left: 4%;
+    }
+    .conten{
+        margin-bottom: 0;
+    }
+}
