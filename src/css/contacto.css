@@ -10,11 +10,9 @@ html{
 .datos {
     width: 45%;
     margin-left: 6%;
-    /* border: 2px solid aqua; */
     margin-bottom: 30px;
 }
 .tituu{
-    /* border: 2px solid greenyellow; */
     text-align: center;
     font-size: 28px;
     margin-top: 9%;
@@ -30,7 +28,6 @@ html{
     height: 17vh;
     margin-top: 25px;
     background-color: #FFCEF499;
-    /* border: 2px solid yellow; */
     width: 115%;
     border-radius: 18px 18px 0px 0px;
 }
@@ -53,7 +50,6 @@ html{
     text-align: center;
     padding-left: 20px;
     width: 68%;
-    /* border: 2px solid blue; */
 }
 
 .info2{
@@ -103,6 +99,8 @@ iframe{
     border-radius:50%;
     border: 5px solid #fff;
 }
+
+/* -------------------RESPONSIVE----------------------- */
 @media screen and (min-width: 768px) and (max-width: 941px){
     iframe{
         width:320px; 
@@ -206,8 +204,8 @@ iframe{
     }
     .mapa{
         width: 20%;
-        margin-top: 7%;
+        margin-top: 5%;
         margin-bottom: 2%;
-        margin-left: 13%;
+        margin-left: 19%;
     }
 }
