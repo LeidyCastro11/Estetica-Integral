@@ -4,12 +4,12 @@ html{
 }
 .mapa {
     height: 50%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 3%;
 }
 .datos {
     width: 45%;
-    margin-left: 9%;
+    margin-left: 6%;
     /* border: 2px solid aqua; */
     margin-bottom: 30px;
 }
@@ -18,6 +18,7 @@ html{
     text-align: center;
     font-size: 28px;
     margin-top: 9%;
+    margin-left: 15%;
     font-family: serif;
     font-style: italic;
     color: #6F6565;
@@ -30,14 +31,14 @@ html{
     margin-top: 25px;
     background-color: #FFCEF499;
     /* border: 2px solid yellow; */
-    width: 110%;
+    width: 115%;
     border-radius: 18px 18px 0px 0px;
 }
 
 .contenedor_padre2{
     display: flex;
     background-color: #FFCEF499;
-    width: 110%;
+    width: 115%;
     height: 17vh;
     border-radius:  0px 0px 18px 18px;
 }
@@ -51,7 +52,7 @@ html{
     line-height: 0.5;
     text-align: center;
     padding-left: 20px;
-    width: 50%;
+    width: 68%;
     /* border: 2px solid blue; */
 }
 
@@ -97,8 +98,8 @@ html{
     text-align: justify;
 }
 iframe{
-    width:155%; 
-    height:48vh; 
+    width:128%; 
+    height:50vh; 
     border-radius:50%;
     border: 5px solid #fff;
 }
@@ -111,7 +112,7 @@ iframe{
         width: 99%;
         margin-top:7%;
         margin-bottom: 30px;
-        margin-left: 9%;
+        margin-left: 6%;
     }
     .fonx{
         width: 95%;
@@ -121,46 +122,49 @@ iframe{
     .tituu{
         width: 90%;
         text-align: center;
+        margin-left: 3%;
         font-size: 28px;
-        margin-top: 1%;
+        margin-top: -3%;
     }
     .info1{
-        width: 55%;
+        width: 71%;
+        margin-left: -5%;
     }
     .info2{
-        margin-left: 15%;
+        margin-left: -10%;
     }
     .info3{
-        margin-left: 18%;
-        padding-top: 30px;
+        margin-left: 6.2%;
     }
     .info4{
-        margin-left: 28%;
+        height: auto;
+        margin-left: 8.7%;
     }
     .contenedor_padre2{
-        width: 90%;
+        width: 95%;
         height: 20vh;
     }
     .contenedor_padre{
-        width: 90%;
+        width: 95%;
+        height: 20vh;
     }
     .mapa{
         width: 50%;
         margin-top: 1%;
         margin-bottom: 2%;
-        margin-left: 37%;
+        margin-left: 33%;
     }
 }
 
-@media screen and (min-width: 941px) and (max-width: 1200px){
+@media screen and (min-width: 942px) and (max-width: 1200px){
     iframe{
-        margin-left: 29%;
-        width:330px; 
-        height:43vh; 
+        margin-left: 6%;
+        width:290px; 
+        height:38vh; 
     }
     .datos {
-        width: 45%;
-        margin-left: 3.7%;
+        width: 47%;
+        margin-left: 2.4%;
     }
     .fonx{
         width: 98%;
@@ -174,35 +178,36 @@ iframe{
     .info1{
         text-align: center;
         font-size: 19px;
-        width: 64%;
+        width: 70%;
         margin-left: -2%;
     }
     .info2{
         font-size: 19px;
         width: 30%;
-        margin-left: 2%;
+        margin-left: 1.4%;
     }
     .info3{
         font-size: 19px;
         width: 50%;
-        margin-left: 8%;
+        margin-left: 11%;
     }
     .info4{
         font-size: 19px;
         width: 50%;
-        margin-left: 5%;
+        margin-left: 7%;
     }
     .contenedor_padre2{
-        width: 130%;
+        width: 127%;
         height: 18vh;
     }
     .contenedor_padre{
-        width: 130%;
+        width: 127%;
         height: 18vh;
     }
     .mapa{
-        width: 30%;
-        margin-top: 4%;
+        width: 20%;
+        margin-top: 7%;
         margin-bottom: 2%;
+        margin-left: 13%;
     }
 }

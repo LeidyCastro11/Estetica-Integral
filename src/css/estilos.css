@@ -4,7 +4,6 @@ body, html {
     height: 100vh;
 }
 
-
 @font-face{
     font-family: "Rakkas";
     src:url(../utils/fonts/Rakkas-Regular.woff);
