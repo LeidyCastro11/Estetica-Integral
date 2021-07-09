@@ -57,15 +57,13 @@
     height: 110%;
     padding: 20px;
     background-color: #FFCEF4;
-    /* border: 2px solid aqua */
 }
 
 .tratamientos1_image img{
     width: 380px;
     height: 188px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-    box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.61);
 }
 
 .tratamientos1_image {
@@ -80,8 +78,7 @@
     width: 380px;
     height: 188px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-    box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.61);
 }
 
 .tratamientos2_image {
@@ -101,7 +98,6 @@
     padding: 20px;
     background-color: #FFCEF4;
     margin-top: 35px;
-    /* border: 2px solid aqua */
 }
 
 
@@ -116,15 +112,13 @@
     margin-left: 110px;
     padding: 20px;
     background-color: #FFCEF4;
-    /* border: 2px solid aqua */
 }
 
 .tratamientos3_image img{
     width: 380px;
     height: 188px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-    box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.61);
 }
 
 .tratamientos3_image {
@@ -145,7 +139,6 @@
     height: 110%;
     padding: 20px;
     background-color: #FFCEF4;
-    /* border: 2px solid aqua */
 }
 
 .tratamientos4_image img{
@@ -181,8 +174,7 @@
     width: 380px;
     height: 188px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-    box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.61);
 }
 
 .tratamientos5_image {
@@ -212,8 +204,7 @@
     width: 380px;
     height: 188px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-    box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.61);
 }
 
 .tratamientos6_image {
@@ -228,8 +219,7 @@
     width: 380px;
     height: 188px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-    box-shadow: 0px 3px 19px 0px #000000;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.61);
 }
 
 .tratamientos7_image {
@@ -266,7 +256,6 @@
     }
 
     .fon5{
-        border: 2px solid red;
         width: 100%;
         display: flex;
         height: 680px;
@@ -274,23 +263,16 @@
     }
     
     .info_tratamientos{
-        /* border: 2px solid rebeccapurple; */
         margin-top: 10px;
         width: 120%;
         height: 300px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 800;
-        font-size: 18px;
-        font-style: italic;
     
     }
-
     .rosita{
         margin-top: 35px;
         margin-left: 60px;
         width: 45%;
-        height: 110%;
-       
+        height: 110%;  
     }
     
     .tratamientos1_image img{
@@ -357,9 +339,6 @@
     .tratamientos4_image img{
         width: 350px;
         height: 188px;
-        border-radius: 20px;
-        -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-        box-shadow: 0px 3px 19px 0px #000000;
     }
     
     .tratamientos4_image {
@@ -451,11 +430,6 @@
         margin-top: 10px;
         width: 120%;
         height: 300px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 800;
-        font-size: 18px;
-        font-style: italic;
-    
     }
 
     .rosita{
@@ -530,9 +504,6 @@
     .tratamientos4_image img{
         width: 350px;
         height: 188px;
-        border-radius: 20px;
-        -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-        box-shadow: 0px 3px 19px 0px #000000;
     }
     
     .tratamientos4_image {
@@ -548,7 +519,6 @@
         margin-top: 40px;
         margin-left: 80px;
         padding: 20px;
-        
     }
     
     .tratamientos5_image img{
@@ -679,9 +649,6 @@
     .tratamientos4_image img{
         width: 350px;
         height: 188px;
-        border-radius: 20px;
-        -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-        box-shadow: 0px 3px 19px 0px #000000;
     }
     
     .tratamientos4_image {
@@ -830,9 +797,6 @@
     .tratamientos4_image img{
         width: 350px;
         height: 188px;
-        border-radius: 20px;
-        -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-        box-shadow: 0px 3px 19px 0px #000000;
     }
     
     .tratamientos4_image {
@@ -979,9 +943,6 @@
     .tratamientos4_image img{
         width: 350px;
         height: 188px;
-        border-radius: 20px;
-        -webkit-box-shadow: 0px 3px 19px 0px #000000; 
-        box-shadow: 0px 3px 19px 0px #000000;
     }
     
     .tratamientos4_image {

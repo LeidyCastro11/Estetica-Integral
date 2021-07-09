@@ -75,11 +75,9 @@
     height: 57%;
     padding: 20px;
     background-color: #FFCEF4;
-    /* border: 2px solid aqua */
 }
 
 .info_tratamientos{
-    /* border: 2px solid rebeccapurple; */
     margin-top: 10px;
     width: 550px;
     height: 300px;
@@ -98,7 +96,6 @@
     height: 57%;
     padding: 20px;
     background-color: #FFCEF4;
-    /* border: 2px solid aqua */
 }
 
 .rosita{
@@ -109,11 +106,9 @@
     height: 57%;
     padding: 20px;
     background-color: #FFCEF4;
-    /* border: 2px solid aqua */
 }
 
 .fon{
-    /* border: 2px solid red; */
     width: 100%;
     display: flex;
     height: auto;
