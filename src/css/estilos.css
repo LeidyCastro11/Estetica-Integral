@@ -233,7 +233,10 @@ nav {
         margin-top: 0;
         height: auto;
     }
+    .col-4 p{
+        font-size: 14px;
+    }
     .row{
-        height: 17vh;
+        height: 20vh;
     }
 }
